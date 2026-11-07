@@ -8,7 +8,7 @@ part of 'transaction.dart';
 
 class TransactionAdapter extends TypeAdapter<Transaction> {
   @override
-  final int typeId = 1;
+  final int typeId = 10;
 
   @override
   Transaction read(BinaryReader reader) {
@@ -109,7 +109,7 @@ class RecurrenceRuleAdapter extends TypeAdapter<RecurrenceRule> {
 
 class TransactionTypeAdapter extends TypeAdapter<TransactionType> {
   @override
-  final int typeId = 1;
+  final int typeId = 9;
 
   @override
   TransactionType read(BinaryReader reader) {

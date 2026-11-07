@@ -2,7 +2,7 @@ import 'package:hive/hive.dart';
 
 part 'transaction.g.dart';
 
-@HiveType(typeId: 1)
+@HiveType(typeId: 9)
 enum TransactionType {
   @HiveField(0)
   expense,
@@ -10,7 +10,7 @@ enum TransactionType {
   income,
 }
 
-@HiveType(typeId: 1)
+@HiveType(typeId: 10)
 class Transaction extends HiveObject {
   @HiveField(0)
   String id;

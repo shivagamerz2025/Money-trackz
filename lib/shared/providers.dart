@@ -7,6 +7,12 @@ import 'repositories/bill_repository.dart';
 import 'repositories/budget_repository.dart';
 import 'repositories/settings_repository.dart';
 
+export 'repositories/transaction_repository.dart';
+export 'repositories/category_repository.dart';
+export 'repositories/bill_repository.dart';
+export 'repositories/budget_repository.dart';
+export 'repositories/settings_repository.dart';
+
 /// Current month being viewed (first day of month)
 final currentMonthProvider = StateProvider<DateTime>((ref) {
   final now = DateTime.now();

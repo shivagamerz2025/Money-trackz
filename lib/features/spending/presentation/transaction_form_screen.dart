@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../shared/models/models.dart';
-import '../../../../shared/repositories/transaction_repository.dart';
-import '../../../../shared/repositories/category_repository.dart';
+import '../../../../shared/providers.dart';
 import '../../../../shared/widgets/widgets.dart';
 
 class TransactionFormScreen extends ConsumerStatefulWidget {
